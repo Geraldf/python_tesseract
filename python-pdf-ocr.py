@@ -159,6 +159,7 @@ def crop(image, box):
 
 	
 if __name__ == "__main__":
-	m = menu(datetime.datetime.today().weekday())
+	# m = menu(datetime.datetime.today().weekday())
+	m = menu(3)
 	if m:
 		print(m.pre())
